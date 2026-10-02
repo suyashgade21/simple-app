@@ -7,7 +7,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 git branch: 'main',
-                    url: 'https://github.com/suyashgade21/simplejava.git'
+                    url: 'https://github.com/suyashgade21/simple-app.git'
             }
         }
 
